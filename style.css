@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.header {
+	background: #000;
+}
+.header ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+.header a{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 49px;
+	color: #14ED84;
+}
+.main {
+	background: #000;
+}
+.slider {
+	height: 1309px;
+	background: url(img/1649594624_1-kartinkof-club-p-ugarnie-kartinki-buster-1\ 1.png);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.slider_first_block {
+	padding-top: 34px;
+	padding-bottom: 30px;
+}
+.slider_second_block {
+	width: 1153px;
+	background: #EBFEEC;
+	display: flex;
+}
+.slider_second_cart h2{
+	margin-top: 30px;
+	margin-bottom: 5px;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 39px;
+	text-transform: uppercase;
+	color: #2B392F;
+}
+.slider_second_cart p{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	color: #5E5E5E;
+}
+.notes {
+	background: #000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 136px;
+}
+.notes_first_block {
+	margin-top: 67px;
+	margin-bottom: 77px;
+}
+.notes_second_block {
+	margin-bottom: 77px;
+}
+.notes_thrid_block {
+	width: 1317px;
+	margin: 0 auto;
+}
+.notes_thrid_block p{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 59px;
+	color: #FFFFFF;
+}
+.funny {
+	margin-bottom: 131px;
+}
+.funny_first h2{
+	text-align: center;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 128px;
+	line-height: 156px;
+	color: #FFFFFF;
+}
+.funny_first{
+	margin-bottom: 121px;
+
+}
+.funny_block {
+	max-width: 1777px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 60px;
+}
+.funny_second{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 61px;
+}
+.funny_second img{
+	height: 61px;
+	margin-left: 10px;
+}
+.funny_second h2{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 52px;
+	line-height: 63px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.funny_cart {
+}
+.funny_first {
+}
+.find {
+	width: 1697px;
+	margin: 0 auto;
+}
+.find_flex{
+	display: flex;
+}
+.find_first_heading h2{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 128px;
+	line-height: 156px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.find_first_heading{
+	margin-bottom:	88px;
+
+}
+.find_first_block {
+	width: 50%;
+}
+.find_first_cart {
+	display: flex;
+	align-items: center;
+	margin-bottom: 38px;
+}
+.find_first_cart img{
+	width: 130px;
+	height: 130px;
+	object-fit: cover;
+}
+.find_first_cart a{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 44px;
+	color: #FFFFFF;
+	margin-left: 29px;
+}
+.find_second_block {
+	width: 50%;
+
+}
